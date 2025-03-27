@@ -59,7 +59,7 @@ h1 {
   align-items: center;
 }
 
-.question-container:focus {
+.question-container:focus-visible {
   outline: 2px solid hsl(281, 83%, 54%);
   border-radius: 3px;
 }
@@ -80,8 +80,8 @@ h3:hover {
   justify-content: flex-end;
 }
 
-.plus-icon:focus,
-.minus-icon:focus {
+.plus-icon:focus-visible,
+.minus-icon:focus-visible {
   outline: 2px solid hsl(281, 83%, 54%);
   border-radius: 3px;
 }
