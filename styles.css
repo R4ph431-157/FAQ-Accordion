@@ -33,6 +33,7 @@ main {
 .header-container {
   display: flex;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 h1 {
@@ -58,6 +59,11 @@ h1 {
   align-items: center;
 }
 
+.question-container:focus {
+  outline: 2px solid hsl(281, 83%, 54%);
+  border-radius: 3px;
+}
+
 h3 {
   max-width: 15.63rem;
   color: hsl(292, 42%, 14%);
@@ -72,6 +78,12 @@ h3:hover {
   flex-grow: 1;
   display: flex;
   justify-content: flex-end;
+}
+
+.plus-icon:focus,
+.minus-icon:focus {
+  outline: 2px solid hsl(281, 83%, 54%);
+  border-radius: 3px;
 }
 
 /* class hidden for icons */
